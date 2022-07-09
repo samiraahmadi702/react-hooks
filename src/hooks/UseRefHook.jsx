@@ -34,9 +34,8 @@ const UseRefHook = () => {
                 <input type="text"
                        ref={inputRef}
                        value={name}
-                       onChange={e => {
+                       onChange={e =>
                            setName(e.target.value)
-                       }
                        }
                        className="form-control"
                        placeholder="Enter a name"/>
