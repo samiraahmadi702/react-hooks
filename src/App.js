@@ -5,6 +5,7 @@ import Accordion from "./components/Accordion";
 import UseMemoHook from "./hooks/UseMemoHook";
 import UseCallBackHook from "./hooks/UseCallBackHook";
 import UseReducerHook from "./hooks/UseReducerHook";
+import UseLayoutEffect from "./hooks/UseLayoutEffect";
 
 function App() {
     return (
@@ -35,6 +36,11 @@ function App() {
             <Accordion title="useReducer hook example"
                        heading="headingFour">
                 <UseReducerHook/>
+            </Accordion>
+            <hr className="text-success"/>
+            <Accordion title="useLayoutEffect hook example"
+                       heading="headingFive">
+                <UseLayoutEffect/>
             </Accordion>
             <hr className="text-success"/>
         </>
